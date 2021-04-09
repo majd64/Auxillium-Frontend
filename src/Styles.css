@@ -1,0 +1,132 @@
+*{
+  font-family: "Inter";
+}
+
+.header {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #00d1ff, #ed1eff);
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  min-height: 100vh;
+}
+
+.btn-primary{
+  background: #383D51;
+  border: none;
+  font-weight: 400;
+}
+
+.btn-primary:hover{
+  background: white;
+  color: #383D51;
+}
+
+.border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  padding: 4px;
+  border-radius: 6px;
+}
+
+code {
+  color: #745eb1;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 6.3rem;
+  line-height: 95%;
+  letter-spacing: 0.5%;
+}
+
+.email{
+  height: 100vh;
+}
+
+.airdrop-title{
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+.airdrop-stat-title{
+  background: #383D51;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+.airdrop-info{
+  color: #383D51
+}
+
+.aux-airdrop-desc{
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ABABAB;
+}
+
+.navbar{
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+}
+
+.nav-link{
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-brand{
+  color: white !important;
+  margin-right: 50px;
+}
+
+.welcome-to-aux{
+  color: #F5F5F7;
+  font-size: 1.09rem;
+  font-weight: 600;
+}
+
+.description{
+  max-width: 35em;
+  margin: auto;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-size: 1.4rem;
+}
+
+.countdown{
+  color: #F5F5F7;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.countdown-text{
+  color: #F5F5F7;
+  font-weight: 500;
+}
+
+.tokens-claimed-text{
+  color: #383D51;
+  font-size: 1.8rem;
+}
+
+.referrel-desc{
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #383D51;
+}
+
+.copy-button:hover{
+  color: black !important;
+}
